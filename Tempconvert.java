@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Escseq {
+class Tempconvert{
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
     	System.out.print("Enter a Celcius value: ");
