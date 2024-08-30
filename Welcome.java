@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Number_one {
+class Welcome {
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to CS 211: Object-oriented Programming!");
