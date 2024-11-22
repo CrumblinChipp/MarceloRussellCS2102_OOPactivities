@@ -12,17 +12,19 @@ public class ArtistDemo {
 
         System.out.println();
 
-        Painter painter = new Painter("Leonardo Da Vinci", 67, "Artwork", Medium.OIL);
+        Painter painter = new Painter("Leonardo Da Vinci", "Italian", 67, "Artwork", Medium.OIL);
         painter.displayInfo();
 
         System.out.println();
 
-        Writer writer = new Writer("Jobie Hughes", 44, "Writing", WritingStyle.FICTION);
+        Writer writer = new Writer("Jobie Hughes", "American", 44, "Writing", WritingStyle.FICTION);
         writer.displayInfo();
 
         System.out.println();
 
-        Dancer dancer = new Dancer("Hayate", 19, "Dance", dance.HIPHOP);
+        Dancer dancer = new Dancer("Hayate","Japanese", 19, "Dance", DanceStyle.HIPHOP);
         dancer.displayInfo();
+
+        System.out.println();
     }
 }
